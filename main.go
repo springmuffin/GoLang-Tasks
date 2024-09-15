@@ -1,7 +1,17 @@
 package main
 
+import (
+	"bufio"
+	"os"
+)
+
 func main() {
-	calculator()
+	// calculator()
 	// odd()
 	// sum()
+	// factorial()
+	// minMaxArr()
+
+	reader := bufio.NewReader(os.Stdin)
+	structure(reader)
 }
